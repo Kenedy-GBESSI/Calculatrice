@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="main">
+           <form action="">
+               <input type="text" name="display-afficheur" id="display-afficheur" readonly>
+           </form>
+           <table id="button-table">
+                  <tr class="row-btn">
+                      <td class="btn-t"><button class="btnf init" value="CI" data-key="CI">CI</button></td>
+                      <td class="btn-t"><button class="btnf del" value="DEL" data-key="DEL">DEL</button></td>
+                      <td class="btn-t"><button class="btn" value="%" data-key="%">%</button></td>
+                      <td class="btn-t"><button class="btn" value="/" data-key="/">/</button></td>
+                  </tr>
+                  <tr class="row-btn">
+                    <td class="btn-t"><button class="btn" value="7" data-key="7">7</button></td>
+                    <td class="btn-t"><button class="btn"  value="8" data-key="8">8</button></td>
+                    <td class="btn-t"><button class="btn" value="9" data-key="9">9</button></td>
+                    <td class="btn-t"><button class="btn" value="*" data-key="*">*</button></td>
+                </tr>
+                <tr class="row-btn">
+                    <td class="btn-t"><button class="btn" value="4" data-key="4">4</button></td>
+                    <td class="btn-t"><button class="btn" value="5" data-key="5">5</button></td>
+                    <td class="btn-t"><button class="btn" value="6" data-key="6">6</button></td>
+                    <td class="btn-t"><button class="btn" value="-" data-key="-">-</button></td>
+                </tr>
+                <tr class="row-btn">
+                    <td class="btn-t"><button class="btn" value="1" data-key="1">1</button></td>
+                    <td class="btn-t"><button class="btn" value="2" data-key="2">2</button></td>
+                    <td class="btn-t"><button class="btn" value="3" data-key="3">3</button></td>
+                    <td class="btn-t"><button class="btn" value="+" data-key="+">+</button></td>
+                </tr>
+                <tr class="row-btn">
+                    <td class="btn-t"><button class="btn" value="." data-key=".">.</button></td>
+                    <td class="btn-t"><button class="btn" value="0" data-key="0">0</button></td>
+                    <td class="btn-t" colspan="2" ><button class="btnf egal" value="=" data-key="=">=</button></td>
+                </tr>
+           </table>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>
